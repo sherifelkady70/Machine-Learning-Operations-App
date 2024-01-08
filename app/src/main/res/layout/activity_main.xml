@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/imageClassificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_image_classification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:onClick="onGotoImageClassificationActivity"/>
+    <Button
+        android:id="@+id/flowerIdentificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_flower_identification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageClassificationBtn"
+        android:layout_marginTop="16dp"
+        android:onClick="onGotoFlowerIdentificationActivity"/>
+
+    <Button
+        android:id="@+id/ObjectDetectionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_image_detection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flowerIdentificationBtn"
+        android:layout_marginTop="16dp"
+        android:onClick="onGotoObjectDetectionActivity"/>
+    <Button
+        android:id="@+id/FaceDetectionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_face_detection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ObjectDetectionBtn"
+        android:layout_marginTop="16dp"
+        android:onClick="onGotoFaceDetectionActivity"/>
+    <Button
+        android:id="@+id/AudioCalssificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_audio_classification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FaceDetectionBtn"
+        android:layout_marginTop="16dp"
+        android:onClick="onGotoAudioClassification"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

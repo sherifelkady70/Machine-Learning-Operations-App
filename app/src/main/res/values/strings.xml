@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ML_APP</string>
+    <string name="go_to_image_activity">Go To Image Activity</string>
+    <string name="todo">TODO</string>
+    <string name="output">Output</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="pick_photo">Pick Photo</string>
+    <string name="go_to_image_classification">Go To Image Classification</string>
+    <string name="go_to_flower_identification">Go To Flower Identification</string>
+    <string name="go_to_image_detection">Go To Image Detection</string>
+    <string name="go_to_face_detection">Go To Face Detection</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="specs">Specs</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="go_to_audio_classification">Go To Audio Classification</string>
+</resources>
